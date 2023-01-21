@@ -99,3 +99,11 @@ body {
     display: flex;
     justify-content: center;
 }
+
+@media (min-width: 500px) {
+    .header,
+    .links,
+    .footer {
+        margin: 0 100px;
+    }
+}
